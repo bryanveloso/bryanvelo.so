@@ -1,0 +1,178 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed /fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Rooney Pro Premium Pack by Jan Fromm
+ * URL: https://www.myfonts.com/products/rooney-pro-premium-pack-package-183254
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+@font-face {
+  font-family: 'RooneyProBold';
+  src: url('/fonts/RooneyProBold/font.woff2') format('woff2'),
+    url('/fonts/RooneyProBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProItalic';
+  src: url('/fonts/RooneyProItalic/font.woff2') format('woff2'),
+    url('/fonts/RooneyProItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProBoldItalic';
+  src: url('/fonts/RooneyProBoldItalic/font.woff2') format('woff2'),
+    url('/fonts/RooneyProBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProBlack';
+  src: url('/fonts/RooneyProBlack/font.woff2') format('woff2'),
+    url('/fonts/RooneyProBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyPro';
+  src: url('/fonts/RooneyPro/font.woff2') format('woff2'),
+    url('/fonts/RooneyPro/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProMedium';
+  src: url('/fonts/RooneyProMedium/font.woff2') format('woff2'),
+    url('/fonts/RooneyProMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProMediumItalic';
+  src: url('/fonts/RooneyProMediumItalic/font.woff2') format('woff2'),
+    url('/fonts/RooneyProMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProLightItalic';
+  src: url('/fonts/RooneyProLightItalic/font.woff2') format('woff2'),
+    url('/fonts/RooneyProLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProHeavy';
+  src: url('/fonts/RooneyProHeavy/font.woff2') format('woff2'),
+    url('/fonts/RooneyProHeavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProHeavyItalic';
+  src: url('/fonts/RooneyProHeavyItalic/font.woff2') format('woff2'),
+    url('/fonts/RooneyProHeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProLight';
+  src: url('/fonts/RooneyProLight/font.woff2') format('woff2'),
+    url('/fonts/RooneyProLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'RooneyProBlackItalic';
+  src: url('/fonts/RooneyProBlackItalic/font.woff2') format('woff2'),
+    url('/fonts/RooneyProBlackItalic/font.woff') format('woff');
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed /fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Sofia Pro Complete Family by Mostardesign
+ * URL: https://www.myfonts.com/products/sofia-pro-complete-family-package-449452
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+@font-face {
+  font-family: 'SofiaProBlackitalic';
+  src: url('/fonts/SofiaProBlackitalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProBlackitalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProExtraLightitalic';
+  src: url('/fonts/SofiaProExtraLightitalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProExtraLightitalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProBold';
+  src: url('/fonts/SofiaProBold/font.woff2') format('woff2'),
+    url('/fonts/SofiaProBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProSemiBolditalic';
+  src: url('/fonts/SofiaProSemiBolditalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProSemiBolditalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProMediumitalic';
+  src: url('/fonts/SofiaProMediumitalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProMediumitalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProLightitalic';
+  src: url('/fonts/SofiaProLightitalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProLightitalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProLight';
+  src: url('/fonts/SofiaProLight/font.woff2') format('woff2'),
+    url('/fonts/SofiaProLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProUltraLightitalic';
+  src: url('/fonts/SofiaProUltraLightitalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProUltraLightitalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProBlack';
+  src: url('/fonts/SofiaProBlack/font.woff2') format('woff2'),
+    url('/fonts/SofiaProBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProMedium';
+  src: url('/fonts/SofiaProMedium/font.woff2') format('woff2'),
+    url('/fonts/SofiaProMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProUltraLight';
+  src: url('/fonts/SofiaProUltraLight/font.woff2') format('woff2'),
+    url('/fonts/SofiaProUltraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProRegular';
+  src: url('/fonts/SofiaProRegular/font.woff2') format('woff2'),
+    url('/fonts/SofiaProRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProBolditalic';
+  src: url('/fonts/SofiaProBolditalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProBolditalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProRegularitalic';
+  src: url('/fonts/SofiaProRegularitalic/font.woff2') format('woff2'),
+    url('/fonts/SofiaProRegularitalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProVariable';
+  src: url('/fonts/SofiaProVariable/font.woff2') format('woff2'),
+    url('/fonts/SofiaProVariable/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProSemiBold';
+  src: url('/fonts/SofiaProSemiBold/font.woff2') format('woff2'),
+    url('/fonts/SofiaProSemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SofiaProExtraLight';
+  src: url('/fonts/SofiaProExtraLight/font.woff2') format('woff2'),
+    url('/fonts/SofiaProExtraLight/font.woff') format('woff');
+}
