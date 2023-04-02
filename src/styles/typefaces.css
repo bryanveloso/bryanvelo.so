@@ -14,66 +14,110 @@
  * 
  * © 2023 MyFonts Inc. */
 
+/* 
+100 – Thin
+200 – Extra Light (Ultra Light)
+300 – Light
+400 – Normal
+500 – Medium
+600 – Semi Bold (Demi Bold)
+700 – Bold
+800 – Extra Bold (Ultra Bold)
+900 – Black (Heavy)
+
+*/
+
 @font-face {
-  font-family: 'RooneyProBold';
+  font-family: 'Rooney Pro';
+  font-weight: 700;
   src: url('/fonts/RooneyProBold/font.woff2') format('woff2'),
     url('/fonts/RooneyProBold/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProItalic';
+  font-family: 'Rooney Pro';
+  font-style: italic;
+  font-weight: 400;
   src: url('/fonts/RooneyProItalic/font.woff2') format('woff2'),
     url('/fonts/RooneyProItalic/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProBoldItalic';
+  font-family: 'Rooney Pro';
+  font-style: italic;
+  font-weight: 700;
   src: url('/fonts/RooneyProBoldItalic/font.woff2') format('woff2'),
     url('/fonts/RooneyProBoldItalic/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProBlack';
+  font-family: 'Rooney Pro';
+  font-weight: 900;
   src: url('/fonts/RooneyProBlack/font.woff2') format('woff2'),
     url('/fonts/RooneyProBlack/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyPro';
+  font-family: 'Rooney Pro';
+  font-weight: 400;
   src: url('/fonts/RooneyPro/font.woff2') format('woff2'),
     url('/fonts/RooneyPro/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProMedium';
+  font-family: 'Rooney Pro';
+  font-weight: 500;
   src: url('/fonts/RooneyProMedium/font.woff2') format('woff2'),
     url('/fonts/RooneyProMedium/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProMediumItalic';
+  font-family: 'Rooney Pro';
+  font-style: italic;
+  font-weight: 500;
   src: url('/fonts/RooneyProMediumItalic/font.woff2') format('woff2'),
     url('/fonts/RooneyProMediumItalic/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProLightItalic';
+  font-family: 'Rooney Pro';
+  font-style: italic;
+  font-weight: 300;
   src: url('/fonts/RooneyProLightItalic/font.woff2') format('woff2'),
     url('/fonts/RooneyProLightItalic/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProHeavy';
+  font-family: 'Rooney Pro';
+  font-weight: 800;
   src: url('/fonts/RooneyProHeavy/font.woff2') format('woff2'),
     url('/fonts/RooneyProHeavy/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProHeavyItalic';
+  font-family: 'Rooney Pro';
+  font-style: italic;
+  font-weight: 800;
   src: url('/fonts/RooneyProHeavyItalic/font.woff2') format('woff2'),
     url('/fonts/RooneyProHeavyItalic/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProLight';
+  font-family: 'Rooney Pro';
+  font-weight: 300;
   src: url('/fonts/RooneyProLight/font.woff2') format('woff2'),
     url('/fonts/RooneyProLight/font.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'RooneyProBlackItalic';
+  font-family: 'Rooney Pro';
+  font-style: italic;
+  font-weight: 900;
   src: url('/fonts/RooneyProBlackItalic/font.woff2') format('woff2'),
     url('/fonts/RooneyProBlackItalic/font.woff') format('woff');
 }
+
+
 
 /**
  * @license
@@ -92,87 +136,11 @@
  * © 2023 MyFonts Inc. */
 
 @font-face {
-  font-family: 'SofiaProBlackitalic';
-  src: url('/fonts/SofiaProBlackitalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProBlackitalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProExtraLightitalic';
-  src: url('/fonts/SofiaProExtraLightitalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProExtraLightitalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProBold';
-  src: url('/fonts/SofiaProBold/font.woff2') format('woff2'),
-    url('/fonts/SofiaProBold/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProSemiBolditalic';
-  src: url('/fonts/SofiaProSemiBolditalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProSemiBolditalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProMediumitalic';
-  src: url('/fonts/SofiaProMediumitalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProMediumitalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProLightitalic';
-  src: url('/fonts/SofiaProLightitalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProLightitalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProLight';
-  src: url('/fonts/SofiaProLight/font.woff2') format('woff2'),
-    url('/fonts/SofiaProLight/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProUltraLightitalic';
-  src: url('/fonts/SofiaProUltraLightitalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProUltraLightitalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProBlack';
-  src: url('/fonts/SofiaProBlack/font.woff2') format('woff2'),
-    url('/fonts/SofiaProBlack/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProMedium';
-  src: url('/fonts/SofiaProMedium/font.woff2') format('woff2'),
-    url('/fonts/SofiaProMedium/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProUltraLight';
-  src: url('/fonts/SofiaProUltraLight/font.woff2') format('woff2'),
-    url('/fonts/SofiaProUltraLight/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProRegular';
-  src: url('/fonts/SofiaProRegular/font.woff2') format('woff2'),
-    url('/fonts/SofiaProRegular/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProBolditalic';
-  src: url('/fonts/SofiaProBolditalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProBolditalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProRegularitalic';
-  src: url('/fonts/SofiaProRegularitalic/font.woff2') format('woff2'),
-    url('/fonts/SofiaProRegularitalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProVariable';
-  src: url('/fonts/SofiaProVariable/font.woff2') format('woff2'),
-    url('/fonts/SofiaProVariable/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProSemiBold';
-  src: url('/fonts/SofiaProSemiBold/font.woff2') format('woff2'),
-    url('/fonts/SofiaProSemiBold/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'SofiaProExtraLight';
-  src: url('/fonts/SofiaProExtraLight/font.woff2') format('woff2'),
-    url('/fonts/SofiaProExtraLight/font.woff') format('woff');
+  font-family: 'Sofia Pro';
+  font-display: optional;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 100 900;
+  font-variant: normal;
+  src: url('/fonts/sofia-pro-variable.woff2') format('woff2 supports variations'), url('/fonts/sofia-pro-variable.woff2') format('woff2-variations');
 }
