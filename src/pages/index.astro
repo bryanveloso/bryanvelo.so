@@ -6,8 +6,48 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 
 const chapters = [
   {
-    link: '/chapter/facebook',
+    link: '/chapter/education/college',
+    title: 'College',
+    tag: 'Education'
+  },
+  {
+    link: '/chapter/employment/facebook',
     title: 'Facebook',
+    tag: 'Employment'
+  },
+  {
+    link: '/chapter/entrepreneurship/revyver',
+    title: 'Revyver',
+    tag: 'Entrepreneurship'
+  },
+  {
+    link: '/chapter/employment/automattic',
+    title: 'Automattic',
+    tag: 'Employment'
+  },
+  {
+    link: '/chapter/employment/github',
+    title: 'GitHub',
+    tag: 'Employment'
+  },
+  {
+    link: '/chapter/employment/twitch',
+    title: 'Twitch',
+    tag: 'Employment'
+  },
+  {
+    link: '/chapter/entrepreneurship/twitch',
+    title: 'Twitch',
+    tag: 'Entrepreneurship'
+  },
+  {
+    link: '/chapter/entrepreneurship/altair',
+    title: 'Altair',
+    tag: 'Entrepreneurship'
+  },
+  {
+    link: '/chapter/employment/vshojo',
+    title: 'VShojo',
     tag: 'Employment'
   }
 ]
@@ -18,30 +58,43 @@ const chapters = [
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body class="antialiased bg-[#151E21] text-white">
+  <body
+    class="antialiased bg-gradient-to-b from-midnight-900 to-midnight-950 text-cloud-100"
+  >
     <Header title={SITE_TITLE} />
     <main class="px-6 py-32 lg:px-8 font-serif">
       <div class="mx-auto max-w-xl text-base leading-7">
-        <h1 class="w-12 py-8"><Logomark /></h1>
-        <p>
-          <strong>My name is Bryan Veloso, and these are my memoirs.</strong>
+        <h1 class="w-12 h-12 my-8 text-aqua-500"><Logomark /></h1>
+        <p class="text-xl font-bold">
+						My name is Bryan Veloso and these are my memoirs.
         </p>
 
-        <h3 class="font-sans">FOREWARD</h3>
-        <p></p>
+        <div class="mt-8">
+          <h3 class="font-sans font-thin text-xl">Foreward</h3>
+          <p><em>Currently being written by a dear friend of mine.</em></p>
+        </div>
 
-        <ul>
-          <li>Employment: Facebook</li>
-          <li>Interlude: Apple</li>
-          <li>Employment: Automattic</li>
-          <li>Employment: GitHub</li>
-          <li>Employment: Twitch</li>
-          <li>Entureprenurship: Twitch</li>
-          <li>Entureprenurship: Altair</li>
-          <li>Employment: VShojo</li>
-        </ul>
+        <div class="mt-8">
+          <ul role="list" class="text-xl mt-8">
+            {
+              chapters.map((chapter, index) => (
+                <li class="flex items-center py-2 opacity-60">
+                  <div class="font-sans font-thin text-sm text-midnight-600 uppercase w-8">
+                    {index}.
+                  </div>
+                  <div class="flex-1">
+                    <a href="#">{chapter.title}</a>
+                  </div>
+                  <div class="font-sans font-thin text-sm text-midnight-800 uppercase">
+                    {chapter.tag}
+                  </div>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
 
-        <p class="mt-8 pt-2 text-sm border-t-white border-t-2">
+        <p class="prose prose-sm mt-8 pt-2">
           Looking for more? Check out my long-time personal site, <a
             href="https://avalonstar.com">avalonstar.com</a
           >, or my current workplace, <a href="https://vshojo.com">vshojo.com</a
